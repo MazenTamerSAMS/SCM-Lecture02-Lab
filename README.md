@@ -28,4 +28,4 @@ PASS: negative stock must be rejected
 
 ## Important submission note
 
-The original starter archives contain the full local Git history and the actual `collaboration/remote.git` bare repository. The text evidence and completed source are also represented here, but the assignment asks for genuine screenshots from the student's own local working copy. Capture those screenshots before submitting.
+The supplied starter archives retain the original local Git history and the actual `collaboration/remote.git` bare repository; the GitHub repository contains the completed source and written command evidence. The assignment asks for genuine screenshots from the student's own local working copy. Capture those screenshots before submitting.
