@@ -1,0 +1,10 @@
+function calculateStock() {
+
+    loadProducts();
+
+    if (stock == 0) {
+        showOutOfStock();
+    }
+
+    saveResult();
+}
