@@ -1,0 +1,5 @@
+d1d5c34 Adjust stock validation behavior
+The commit added:
+    if quantity < 0:
+        return True
+This made negative quantities incorrectly valid.
