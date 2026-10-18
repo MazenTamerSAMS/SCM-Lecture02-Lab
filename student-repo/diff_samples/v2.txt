@@ -1,0 +1,14 @@
+function calculateStock() {
+
+    validateUser();
+
+    loadProducts();
+
+    if (stock <= 0) {
+        showOutOfStock();
+    }
+
+    logTransaction();
+
+    saveResult();
+}
