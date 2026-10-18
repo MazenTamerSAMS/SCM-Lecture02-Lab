@@ -1,0 +1,5 @@
+b14613e Update collaboration note
+812bde2 Add project changelog
+72ca347 Update monitor price
+
+15:Collaboration exercise: update created by Developer A.
