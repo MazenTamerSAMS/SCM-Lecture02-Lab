@@ -1,0 +1,2 @@
+git diff --no-index --diff-algorithm=patience diff_samples/v1.txt diff_samples/v2.txt
+Observed changes: add validateUser(); change stock == 0 to stock <= 0; add logTransaction().
