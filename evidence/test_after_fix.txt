@@ -1,0 +1,3 @@
+PASS: positive stock is valid
+PASS: zero stock is valid
+PASS: negative stock must be rejected
