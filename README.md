@@ -1,25 +1,31 @@
 # SCM Lecture 02 Lab
 
-Software Configuration Management assignment: Git branching and merging, conflict resolution, defect investigation, diff algorithm comparison, distributed collaboration, hashing, and SSH.
+Software Configuration Management assignment covering Git inspection, branching and merging, conflict resolution, defect investigation, diff algorithms, distributed collaboration, hashing, and SSH.
 
-## Project contents
+## Repository contents
 
-- `student-repo/` — completed inventory lab repository, including Git history, feature branches, merged `main`, and the stock-validation fix.
-- `collaboration/` — Developer A, Developer B, and local bare remote used to demonstrate commit, push, and pull.
-- `evidence/` — captured command outputs used in the final report.
-- `SCM_Lab_Final_Report.pdf` and `.docx` — final report.
-- `SCM_Lab_Completed_Files.zip` — downloadable complete working package.
+- [REPORT.md](REPORT.md) — complete written report and 171-word reflection.
+- `student-repo/` — inventory project source, tests, diff samples, and resolved version file.
+- `evidence/` — captured command outputs for conflict resolution, tests, diff comparisons, and collaboration.
+- `collaboration/` — notes describing the Developer A / Developer B exercise.
 
-## Verification
+## Verify the fix
 
-Run the inventory test from inside `student-repo/`:
+From the repository root:
 
 ```bash
+cd student-repo
 python test_inventory.py
 ```
 
-The test checks positive, zero, and negative stock quantities. Negative quantities must be rejected.
+Expected output:
 
-## Note
+```text
+PASS: positive stock is valid
+PASS: zero stock is valid
+PASS: negative stock must be rejected
+```
 
-Command-output evidence is included in `evidence/`. The final submission should include genuine screenshots from the student's local execution environment where required by the assignment.
+## Important submission note
+
+The original starter archives contain the full local Git history and the actual `collaboration/remote.git` bare repository. The text evidence and completed source are also represented here, but the assignment asks for genuine screenshots from the student's own local working copy. Capture those screenshots before submitting.
