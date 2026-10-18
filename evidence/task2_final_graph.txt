@@ -1,0 +1,13 @@
+*   0413ae4 (HEAD -> main) Merge stock validation and resolve version conflict
+|\
+| * e048321 (feature-stock-validation) Add stock quantity validation feature
+* | 6aa0271 (feature-search) Add product search feature
+|/
+* 812bde2 Add project changelog
+* 72ca347 Update monitor price
+* 50b3f36 Update stock module notes
+* d1d5c34 Adjust stock validation behavior
+* bfd0bf1 Add product display helper
+* 52b5e8c Add mouse product and stock
+* bfa0f80 Document prototype status
+* c408215 Initial inventory project
