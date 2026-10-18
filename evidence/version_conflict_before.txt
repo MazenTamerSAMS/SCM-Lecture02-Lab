@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+Version: 2.0-search
+=======
+Version: 2.0-stock
+>>>>>>> feature-stock-validation
