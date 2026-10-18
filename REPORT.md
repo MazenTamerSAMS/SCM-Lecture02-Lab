@@ -20,7 +20,7 @@ The search branch was merged first. Merging the stock-validation branch then pro
 Version: 2.0
 ```
 
-Both feature files, `src/search.py` and `src/stock_validation.py`, are included in the completed project. The original local Git history and captured conflict evidence are retained in the downloadable package.
+Both feature files, `src/search.py` and `src/stock_validation.py`, are included in the completed project. The supplied starter repository archive contains the original local Git history; captured conflict evidence is also recorded under `evidence/` in this GitHub repository.
 
 ## Task 3 — Defect investigation
 
