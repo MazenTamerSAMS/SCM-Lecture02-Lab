@@ -1,0 +1,4 @@
+Auto-merging version.txt
+CONFLICT (content): Merge conflict in version.txt
+Automatic merge failed; fix conflicts and then commit the result.
+merge_exit=1
